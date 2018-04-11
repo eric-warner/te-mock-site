@@ -1,0 +1,141 @@
+.jumbotron {
+    background-image: url("img/te_present_1600x1060.jpg");
+    background-position: 50% 37%;
+    background-repeat: no-repeat;
+    min-height: 400px; 
+    color: #fff;
+    border-radius: 0;
+    padding:2rem;
+    text-shadow: 1px 1px 1px black;
+}
+@media (max-width: 768px) {
+    .jumbotron {
+        background-color:#000;
+        background-image: none;
+        min-height: auto;
+        padding:1rem;
+    }
+
+    #learnMore {
+        float:none !important;
+    }
+}
+
+#learnMore {
+    float:right;
+}
+
+footer {
+    margin-bottom: 20px;
+}
+
+section + section {
+    margin-top: 20px;
+}
+
+/* FEATURES ========================================================== */
+.featureImg {
+    font-size: 4rem;
+}
+
+/* IMPACT ============================================================ */
+.impact {
+    position: relative;
+    margin-bottom: 15px;
+}
+.impact blockquote {
+    position: absolute;
+    bottom: 0;
+    left:15px;
+    right: 15px;
+    color:#fff;
+    text-shadow: 1px 1px 1px black;
+}
+
+.bottom-spacing {
+    margin-bottom: 15px;
+}
+
+/* SIGNUP ============================================================ */
+
+.card {
+    margin-bottom: 15px;
+    border:none;
+}
+.card-body {
+    padding: 0;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.card-body .row {
+    margin:0;
+}
+#signup-blue .card-header, #signup-blue .plan-btn {
+    background-color: #4fa4ff;
+    border-top: 1px solid #4fa4ff;
+    border-left: 1px solid #4fa4ff;
+    border-right: 1px solid #4fa4ff;
+}
+#signup-green .card-header, #signup-green .plan-btn {
+    background-color: #4dd66a;
+    border-top: 1px solid #4dd66a;
+    border-left: 1px solid #4dd66a;
+    border-right: 1px solid #4dd66a;
+}
+#signup-red .card-header, #signup-red .plan-btn {
+    background-color: #e25a5a;
+    border-top: 1px solid #e25a5a;
+    border-left: 1px solid #e25a5a;
+    border-right: 1px solid #e25a5a;
+}
+
+.card-header {
+    text-align: center;
+    color: #fff;
+    padding:20px;
+}
+
+.card-header:first-child {
+    border-radius: 0;
+}
+
+.signup-plan h2 {
+    font-size: 1.75rem;
+}
+
+.signup-price {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.small-dollar {
+    font-size: 2rem;
+    vertical-align: top;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.signup-feature {
+    padding: 5px 10px;
+    border-top:1px solid #eaeaea;
+
+}
+.signup-feature .col {
+    padding:0;
+}
+.signup-feature:nth-child(odd) {
+    background-color:#f5f5f5;
+}
+
+.plan-btn {
+    width:100%;
+    padding:3px;
+    text-align: center;
+    border:1px solid #eaeaea;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.plan-btn:hover {
+    color:#fff;
+}
+
